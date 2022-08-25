@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body */
+body{
+    width: 25vw;
+    height:100vh;
+    background: url(./assets/pexels-rfstudio-3819572.jpg) no-repeat left;
+    background-size:contain;
+}
+/* Navbar */
+.header-section{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.header-section img{
+    width: 100px;
+    margin-left: -4em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: ;
+}
+.navbar::before{
+    content: "";
+    width: 300px;
+    height: 1px;
+    background-color: #020202;
+    
+}
+.nav-lists{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-right: -5em;
+    
+}
+.nav-lists:hover{
+    cursor: pointer;
+    color: #1d1d1d;
+}
+
+.nav-lists a{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+.list{
+    list-style-type: none;
+    ;
+}
+
+/* Hero  */
+.hero-text{
+    display: flex;
+    flex-direction: row;
+}
+/* Text */
+.hero-heading{
+    font-size: 7em;
+    margin-left: 6em;
+    font-weight: 900;
+    font-family: "Merriweather", serif;+
+}
+
+span{
+    position: absolute;
+    top: 0.8em;
+    left: 4.6em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+/* extra lines */
+.hero-heading::after{
+    content: "is our";
+    position: absolute;
+    font-size: 25px;
+    color: #969696;
+    top: 10.5em;
+    left: 39em;
+    font-weight: 400;
+}
+.social-media-lists::before{
+    content: "ingredient.";
+    position: absolute;
+    font-size: 25px;
+    color: #969696;
+    top: 11.5em;
+    left: 39em;
+}
+
+/* Social Media icons */
+.social-media-lists{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-left: 18em;
+}
+
+.social-media-list{
+    width: 20px;
+}
+.facebook{
+    width: 15px;
+}
+/* button */
+.btn{
+    position: absolute;
+    top: 26em;
+    left: 75em;
+    padding:15px 65px;
+    color: #fff;
+    background-color: #020202;
+}
+/* <!-- Hero Footer --> */
+.hero-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5em;
+}
+.footer-left{
+  
+    margin-left: 35em;
+}
+.footer-lists{
+    width: 10vw; 
+}
+.footer-list{
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    list-style-type: none;
+}
+/* Footer List Circle and Line */
+/* Photography circle and line style */
+.photography::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-color: #0a0909;
+    border-radius: 100%;
+    position: absolute;
+    top: 22.1em;
+    left: 27em;
+}
+.photography::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 7vh;
+    background-color: #838383;
+    top: 22.7em;
+    left: 27.3em;
+}
+/* Videography circle and line style */
+.videography::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #838383;
+    border-radius: 100%;
+    position: absolute;
+    top: 24.9em;
+    left: 27.1em;
+}
+.videography::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #838383;
+    top: 25.2em;
+    left: 27.3em;
+}
+/* graphic */
+.graphic::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #838383;
+    border-radius: 100%;
+    position: absolute;
+    top: 27.5em;
+    left: 27.1em;
+}
+.graphic::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #838383;
+    top: 27.8em;
+    left: 27.3em;
+}
+/* illustration */
+.illustration::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #838383;
+    border-radius: 100%;
+    position: absolute;
+    top: 30.2em;
+    left: 27.1em;
+}
+.illustration::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #838383;
+    top: 30.7em;
+    left: 27.3em;
+}
+/* animation */
+.animation::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #838383;
+    border-radius: 100%;
+    position: absolute;
+    top: 32.9em;
+    left: 27.1em;
+}
+.animation::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #838383;
+    top: 32.8em;
+    left: 27.3em;
+}
+
+/* <!-- Hero Footer Right --> */
+.footer-right{
+    width: 40vw;
+    font-size: 1.2em;
+    margin-left: 6em;
+    
+}
+.quote{
+    margin-bottom: 1em;
+}
+.footer-image img{
+    width: 350px;
+    height: 197px;
+    object-fit: cover;
+    object-position: center;
+}
+.quote::before{
+    content: " \❞ ";
+    position: absolute;
+    font-size: 75px;
+    color: #000000;
+    top: 4.8em;
+    left: 10.8em;
+    z-index: 1;
+}
+
+/* Arrow */
+.large-arrow .arrow-line-01,
+.large-arrow .arrow-line-02 {
+  background-color: #4b4b4b;
+  height: 19px;
+  width: 2px;
+  position: absolute;
+  top: 28.6em;
+  left: 64.68em;
+  transform: rotate(135deg);
+}
+
+.large-arrow .arrow-line-02 {
+  transform: rotate(221deg);
+  left: 65.3em;
+}
+
+.quote::after    {
+  content: "";
+  background-color: #4b4b4b;
+  position: absolute;
+  top: 29rem;
+  left: 65em;
+  height: 100px;
+  width: 2px;
+}
+
+
+
+
+
+
+
+/* Mobile Responsive */
+
+
+
+@media screen and (max-width:648px) {
+    /* Body */
+body{
+
+}
+/* Navbar */
+.header-section{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.header-section img{
+    width: 100px;
+    margin-left: -4em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-lists{
+    display: none;
+    
+}
+.nav-lists:hover{
+    cursor: pointer;
+    color: #1d1d1d;
+}
+
+.nav-lists a{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+.list{
+    list-style-type: none;
+    ;
+}
+
+/* Hero  */
+.hero-text{
+    display: flex;
+    flex-direction: row;
+}
+/* Text */
+.hero-heading{
+    font-size: 7em;
+    margin-left: 1em;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    
+}
+
+span{
+    position: absolute;
+    top: 0.8em;
+    left: .6em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+/* extra lines */
+.hero-heading::after{
+    content: "is our";
+    position: absolute;
+    font-size: 25px;
+    color: #969696;
+    top: 15em;
+    left: 11em;
+    font-weight: 400;
+}
+.social-media-lists::before{
+    content: "ingredient.";
+    position: absolute;
+    font-size: 25px;
+    color: #969696;
+    top: 16em;
+    left: 12.5em;
+}
+
+/* Social Media icons */
+.social-media-lists{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-left: 6em;
+}
+
+.social-media-list{
+    width: 20px;
+}
+.facebook{
+    width: 15px;
+}
+/* button */
+.btn{
+    position: absolute;
+    top: 26em;
+    left: 12em;
+    padding:5px 15px;
+    color: #fff;
+    background-color: #8a8787;
+}
+/* <!-- Hero Footer --> */
+.hero-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5em;
+}
+.footer-left{
+  margin-top: .5em;
+    margin-left: 2.5em;
+}
+.footer-lists{
+    width: 20vw; 
+}
+.footer-list{
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    list-style-type: none;
+    color: #fff;
+}
+/* Footer List Circle and Line */
+/* Photography circle and line style */
+.photography::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-color: #ee0000;
+    border-radius: 100%;
+    position: absolute;
+    top: 22.1em;
+    left: 1em;
+}
+.photography::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 7vh;
+    background-color: #f50505;
+    top: 22.7em;
+    left: 1em;
+}
+/* Videography circle and line style */
+.videography::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #f50505;
+    border-radius: 100%;
+    position: absolute;
+    top: 24.9em;
+    left: 1em;
+}
+.videography::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #f50505;
+    top: 25.2em;
+    left: 1em;
+}
+/* graphic */
+.graphic::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #f50505;
+    border-radius: 100%;
+    position: absolute;
+    top: 27.5em;
+    left: 1em;
+}
+.graphic::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #f50505;
+    top: 27.8em;
+    left: 1em;
+}
+/* illustration */
+.illustration::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #f50505;
+    border-radius: 100%;
+    position: absolute;
+    top: 30.2em;
+    left: 1em;
+}
+.illustration::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #f50505;
+    top: 30.7em;
+    left: 1em;
+}
+/* animation */
+.animation::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #f50505;
+    border-radius: 100%;
+    position: absolute;
+    top: 32.9em;
+    left: 1em;
+}
+.animation::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8.5vh;
+    background-color: #f50505;
+    top: 32.8em;
+    left: 1em;
+}
+
+/* <!-- Hero Footer Right --> */
+.footer-right{
+    width: 40vw;
+    font-size: 1.2em;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+.quote{
+    margin-bottom: .5em;
+    color: #fff;
+}
+.footer-image img{
+    width: 250px;
+    height: 197px;
+    object-fit: cover;
+    object-position: center;
+}
+.quote::before{
+    content: " \❞ ";
+    position: absolute;
+    font-size: 75px;
+    color: #000000;
+    top: 4.8em;
+    left: 1em;
+    z-index: 1;
+}
+
+/* Arrow */
+.large-arrow .arrow-line-01,
+.large-arrow .arrow-line-02 {
+  background-color: #4b4b4b;
+  height: 19px;
+  width: 2px;
+  position: absolute;
+  top: 25.2em;
+  left: 25.68em;
+  transform: rotate(135deg);
+}
+
+.large-arrow .arrow-line-02 {
+  transform: rotate(221deg);
+  left: 26.3em;
+}
+
+.quote::after    {
+  content: "";
+  background-color: #4b4b4b;
+  position: absolute;
+  top: 25rem;
+  left: 26em;
+  height: 100px;
+  width: 2px;
+}
+}
